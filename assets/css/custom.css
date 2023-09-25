@@ -292,6 +292,7 @@
 }
 .author-link{
   display: block;
+  font-size: 20px;
 }
 .social-links{
   display: flex;
@@ -299,11 +300,11 @@
   column-gap: 20px;
 }
 .image-link{
-
-
+  width: 35px;
 }
 .link-text{
   display: flex;
   flex-direction: row;
   column-gap: 70px;
+  font-size: 20px;
 }

@@ -1,7 +1,6 @@
 title: Your awesome title
-author:
-  name: GitHub User
-  email: your-email@domain.com
+author: Justice Ogbonna
+author_link: https://www.justiceo.com/
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -13,6 +12,13 @@ description: >
 # Build settings
 
 theme: minima
+
+facebook: ./assets/img/Facebook.svg
+twitter: ./assets/img/Twitter Squared.svg
+instagram: ./assets/img/Instagram Old.svg
+github: ./assets/img/GitHub.svg
+mail: ./assets/img/Mail.svg
+
 
 plugins:
   - jekyll-feed
