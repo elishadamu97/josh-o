@@ -367,6 +367,7 @@ a{
     display: flex;
     margin-left: 0px !important;
     flex-direction: column-reverse !important;
+    border-radius:20px ;
   } 
   .features {
     display: grid;
@@ -378,10 +379,11 @@ a{
     font-size: 16px;
     line-height: 23px;
     color: #7B7B7B;
-    margin-top: 80px;
+    margin-top: 500px;
   }
   .image_landing{
-    margin-top: 20px !important;
+    margin-top: 0px !important;
+    margin-left: 106px;
   }
   .left-item{
     margin-left: 0px !important;
@@ -389,10 +391,37 @@ a{
   .right-item{
     margin-top: 110px !important;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
   }
   .justify-content-start{
     display: flex;
     flex-direction: column;
     row-gap: 20px;
   }
+  #container{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+   }
+   .calcu_logo{
+    width: 300px;
+    height: auto;
+    margin-left: 185% !important;
+  }
+  .float_title{
+    margin-left: 40% !important;
+  }
+  .float_free{
+    margin-left: 60% !important;
+    margin-top: 20px !important;
+  }
+  .extension{
+    margin-left: 40% !important;
+  }
+  .extension_link{
+    margin-left: 30% !important;
+  }
+
   }
