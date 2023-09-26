@@ -244,6 +244,7 @@
      font-size: 16px;
      line-height: 23px;
      color: #7B7B7B;
+     margin-top: 80px;
    }
  
    .feature {
@@ -317,7 +318,7 @@
 @media (min-width: 1200px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 100% !important;
-    height: 700px;
+    height: 670px;
 }
 }
 @media (min-width: 767px){
