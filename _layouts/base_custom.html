@@ -6,7 +6,18 @@
   <body>
 
     {%- include header.html -%}
-    <img class="page__hero-image" src="assets/img/Night_Sky_Stars_Trees_03.jpg" alt="background">
+    
+    <div class="container_hero" style="background-image: url('{{ site.background | relative_url }}');">
+        <div class="left-item">
+            <img src="/assets/img/float_calc.png" alt="">
+        </div>
+        <div class="right-item">
+            <img width="200px" height="auto" src="/assets/img/Screenshot__82_-removebg-preview.png" alt="">
+            <h1 style="display: inline; margin-top: -20px; color: white;">Floating Calculator</h1>
+            <h5 style="display: inline; color: white;" >Free</h5>
+            <h6>A chrome extension for making voice searches.</h6>
+        </div>
+    </div>
     <main class="page-content" aria-label="Content">
     <div class="wrapper">     
         <div class="container">

@@ -1,6 +1,8 @@
 title: Your awesome title
 author: Justice Ogbonna
 author_link: https://www.justiceo.com/
+logo: ./assets/img/Screenshot__82_-removebg-preview.png
+background: Night_Sky_Stars_Trees_03.jpg
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
