@@ -315,13 +315,27 @@
   column-gap: 70px;
   font-size: 20px;
 }
+.page-link:hover{
+  color: black !important;
+}
+.page-link{
+  color: black;
+  font-size: 20px !important;
+}
+a:hover{
+  text-decoration: none !important;
+}
+a{
+  text-decoration: none !important;
+}
 @media (min-width: 1200px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 100% !important;
     height: 670px;
 }
 .right-item{
-  margin-top: 110px; margin-left: -50px;
+  margin-top: 110px !important;
+   margin-left: -50px;
 }
 }
 @media (min-width: 767px){
