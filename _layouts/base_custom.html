@@ -8,11 +8,11 @@
     {%- include header.html -%}
     
     <div class="container" id="container" style="background-image: url('{{ site.background | relative_url }}');">
-        <div class="row justify-content-center">
-            <div class="col-lg-5 left-item" style="margin-top: 70px; margin-left: 50px;">
-                <img src="/assets/img/float_calc.png" alt="">
+        <div class="row inner-content">
+            <div class="col-lg-5 col-md-12 col-sm-12 left-item" style="margin-top: 70px; margin-left: 50px;">
+                <img class="image_landing" src="/assets/img/float_calc.png" alt="">
             </div>
-            <div class="col-lg-6 right-item" style="margin-top: 110px; margin-left: -50px;">
+            <div class="col-lg-6 right-item" >
                 <div class="row justify-content-start">
                     <div class="col-3">
                         <img  class="calcu_logo" src="/assets/img/Screenshot__82_-removebg-preview.png" alt="">
@@ -42,32 +42,32 @@
         <div class="content">
             <div class="features">
                 <div class="feature one">
-                    <img  src="./assets/img/Math.svg" alt="Floating Calculator">
+                    <img  src="{{site.math}}" alt="Floating Calculator">
                     <p>Floating Calculator</p>
                     <p>Conveniently access the calculator while <br>browsing, saving time and effort.</p>
                 </div>
                 <div class="feature two">
-                    <img src="./assets/img/Calculator.svg" alt="Basic and Advanced calculations">
+                    <img src="{{site.calculator}}" alt="Basic and Advanced calculations">
                     <p>Basic and Advanced Calculations</p>
                     <p>Perform all calculations, from simple to <br>complex, with ease and accuracy.</p>
                 </div>
                 <div class="feature three">
-                    <img src="./assets/img/Time Machine.svg" alt="History Log">
+                    <img src="{{site.time_machine}}" alt="History Log">
                     <p>History Log</p>
                     <p>Keep track of your calculations <br>for future reference.</p>
                 </div>
                 <div class="feature four">
-                    <img src="./assets/img/Adjust.svg" alt="Customization Options">
+                    <img src="{{site.adjust}}" alt="Customization Options">
                     <p>Customization Options</p>
                     <p>Personalize the look and feel of the <br>calculator to your liking.</p>
                 </div>
                 <div class="feature five">
-                    <img src="./assets/img/Keyboard.svg" alt="Keyboard Shortcut">
+                    <img src="{{site.keyboard}}" alt="Keyboard Shortcut">
                     <p>Keyboard Shortcuts</p>
                     <p>Save time with quick and easy <br>keyboard shortcuts.</p>
                 </div>
                 <div class="feature six">
-                    <img src="./assets/img/Estimate.svg" alt="financial calculations">
+                    <img src="{{site.estimate}}" alt="financial calculations">
                     <p>Soon: financial calculations</p>
                     <p>Quickly convert currency or loan tenure <br>or investment rates.</p>
                 </div>

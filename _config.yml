@@ -15,12 +15,20 @@ description: >
 
 theme: minima
 
+math: ./assets/img/Math.svg
+calculator: ./assets/img/Calculator.svg
+time_machine: ./assets/img/Time Machine.svg
+adjust: ./assets/img/Adjust.svg
+keyboard: ./assets/img/Keyboard.svg
+estimate: ./assets/img/Estimate.svg
+
 facebook: ./assets/img/Facebook.svg
 twitter: ./assets/img/Twitter Squared.svg
 instagram: ./assets/img/Instagram Old.svg
 github: ./assets/img/GitHub.svg
 mail: ./assets/img/Mail.svg
 
+chrome_extension: https://chrome.google.com/webstore/detail/floating-scientific-calcu/mbfnbhfjnjeedaknilkfegfnnmmmmpmn
 
 plugins:
   - jekyll-feed
