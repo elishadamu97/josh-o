@@ -333,6 +333,7 @@ a{
     max-width: 100% !important;
     height: 670px;
 }
+
 .right-item{
   margin-top: 110px !important;
    margin-left: -50px;
@@ -366,6 +367,11 @@ a{
   margin-top: 70px !important; 
   margin-left: 50px !important;
 }
+.float_title{
+  margin-top: 10px !important;
+ 
+}
+
 @media (max-width: 1000px){
   .inner-content{
     display: flex;
@@ -421,7 +427,15 @@ a{
     text-align: center;
     margin-left: 15%;
   }
+  .extension_link{
+    text-align: center;
+    margin-left: 5%;
+  }
   .link-text{
     text-align: center;
+  }
+  .chrome-extension{
+    margin-left: 10% !important;
+
   }
   }
