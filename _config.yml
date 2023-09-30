@@ -2,7 +2,7 @@ title: Home
 author: Justice Ogbonna
 author_link: https://www.justiceo.com/
 logo: ./assets/img/Screenshot__82_-removebg-preview.png
-background: Night_Sky_Stars_Trees_03.jpg
+background: ./assets/img/Night_Sky_Stars_Trees_03.jpg
 advert: ./assets/img/float_calc.png
 chrome_image: ./assets/img/chrome-download.png
 extension_link: https://chrome.google.com/webstore/detail/floating-scientific-calcu/mbfnbhfjnjeedaknilkfegfnnmmmmpmn
@@ -17,6 +17,11 @@ description: >
 
 theme: minima
 
+exclude:
+  - minima.gemspec
+  - Gemfile
+  - Gemfile.lock
+  
 math: ./assets/img/Math.svg
 calculator: ./assets/img/Calculator.svg
 time_machine: ./assets/img/Time Machine.svg
