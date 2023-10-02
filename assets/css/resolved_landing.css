@@ -137,16 +137,21 @@
   }
   @media (min-width: 3800px){
     .main-content{
-      margin-left: 1480px !important;
+      margin-left: 1780px !important;
     }
   }
   @media (min-width: 3900px){
     .main-content{
-      margin-left: 1560px !important;
+      margin-left: 1860px !important;
     }
   }
   @media (min-width: 4000px){
     .main-content{
-      margin-left: 1620px !important;
+      margin-left: 1930px !important;
+    }
+  }
+  @media (min-width: 4100px){
+    .main-content{
+      margin-left: 2000px !important;
     }
   }
